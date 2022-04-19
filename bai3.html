@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let str=prompt("Nhập đoạn văn")
+    let chuoi=[]
+    for (let i = 0; i < str.length; i++) {
+        let a=str[i]
+        if (a==a.toLowerCase()){
+            a=str[i].toUpperCase()
+            chuoi.push(a)
+        }
+        else {a= str[i].toLowerCase();
+            chuoi.push(a)}
+    }
+    console.log(chuoi.join(''))
+</script>
+</body>
+</html>
